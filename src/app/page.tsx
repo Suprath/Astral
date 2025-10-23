@@ -1,6 +1,6 @@
 'use client';
 
-import { supabase } from '@/utils/client';
+import { supabase } from '@/utils/supabase/client';
 import { useEffect, useState, FormEvent } from 'react';
 import Link from 'next/link';
 
